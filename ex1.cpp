@@ -55,6 +55,7 @@ int menu() {
 }
 
 void inserirMusica() {
+	// Insere uma música no final da lista
 	
 	// Nova música do tipo ponteiro da scruct Musica
 	Musica *NovaMusica; 
@@ -93,6 +94,7 @@ void inserirMusica() {
 }
 
 void listarMusicas() {
+	// Lista todas as músicas da lista
 
 	// Aloca na memória a variável que será usada para varredura
 	Musica *Varredura;
