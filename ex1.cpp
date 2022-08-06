@@ -17,8 +17,9 @@ struct Musica
 
 int main()
 {
-	int op, c;
+	int op;
 
+	// Loop infinito para mostrar o menu e rodar múltiplas vezes
 	while (1)
 	{
 		// Exibe o menu e recebe a opção pelo input
